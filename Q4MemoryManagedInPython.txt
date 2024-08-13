@@ -1,0 +1,9 @@
+Q4) How is Memory Managed in Python?
+Ans) Memory  is managed in python through various components working together to handle, memory allocation, deallocation and garbage collection.
+	
+	1. Python uses a private heap space to manage memory for its objects and data structures.
+	2. When a object is created in python it is allocated to the private heap space.
+	3. To better manage the memory in python, each object is given a reference count which tracks the number of reference to the object.
+	4. Python has a garbage collector which is responsible for collecting and clearing the objects that are no longer usable.
+
+
