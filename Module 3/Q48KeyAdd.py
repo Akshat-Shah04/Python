@@ -24,7 +24,7 @@ for i in data:
 
 print(res)
 
-'''
+"""
 {'item1': 1150, 'item2': 300}
 
-'''
+"""

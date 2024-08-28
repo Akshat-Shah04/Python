@@ -5,18 +5,21 @@ def maximum(a):
             max = i
     return max
 
+
 def minimum(a):
     min = a[0]
     for i in a:
-        if i<min:
+        if i < min:
             min = i
     return min
+
 
 def summation(a):
     sum = 0
     for i in a:
         sum = sum + i
     return sum
+
 
 list1 = []
 n = int(input("How many numbers you want to enter in the list : "))
@@ -33,7 +36,7 @@ print(f"Maximum : {max}")
 print(f"Minimum : {min}")
 print(f"Summation : {sum}")
 
-'''
+"""
 output :
 
 How many numbers you want to enter in the list : 5
@@ -47,4 +50,4 @@ Maximum : 100
 Minimum : 5
 Summation : 247
 
-'''
+"""

@@ -11,10 +11,10 @@ def checkRange(n):
 n = int(input("Enter a number : "))
 checkRange(n)
 
-'''
+"""
 Enter a number : 100
 Enter the start of the range : 50
 Enter the end of the range : 250
 100 is in range(50,250)
 
-'''
+"""
