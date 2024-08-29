@@ -7,12 +7,13 @@ filename = (
 def write_file(filename, str):
     with open(filename, "w") as file:
         file.writelines(str)
-
+        file.close()
 
 def read_file(filename):
     with open(filename, "r") as file:
         for i in file:
             print(i)
+        file.close()
 
 
 read_file(filename)
@@ -20,7 +21,8 @@ print("\n\n\nWriting in the file demo.txt........")
 write_file(filename, l)
 read_file(filename)
 
-'''
+
+"""
 My name is Akshat Shah
 
 I am currently 20 years old.
@@ -49,4 +51,4 @@ hii world
 Akshat Shah
 
 
-'''
+"""
