@@ -5,7 +5,7 @@ file = open('file_path','mode')
 
 or 
 
-with open('example.txt', 'r') as file:
+with open('demo.txt', 'r') as file:
     for i in file:
         print(i.split())
 
@@ -20,5 +20,3 @@ The open function is versatile and is the primary method used for file I/O opera
 
 
 """
-
-
