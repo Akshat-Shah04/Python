@@ -4,7 +4,7 @@ A try-except block in Python can have multiple except statements to handle diffe
 
 try:
     a = int(input("Enter a number: "))
-    result = 10 / a
+    res = 10 / a
 except ValueError:
     print("Invalid input! Please enter a valid number.")
 except ZeroDivisionError:
@@ -12,7 +12,7 @@ except ZeroDivisionError:
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
 else:
-    print("Division was successful. The result is:", result)
+    print("Division was successful. The result is:", res)
 
 """
 Enter a number: 2
