@@ -1,7 +1,12 @@
+"""
+How Do You Handle Exceptions With Try/Except/Finally In Python? Explain with coding snippets.
+"""
+
+
 def divide_num(a, b):
     try:
         res = a / b
-        print("Result : ",res)
+        print("Result : ", res)
     except ZeroDivisionError:
         print("Denominator cannot be Zero...")
     except TypeError:

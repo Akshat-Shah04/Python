@@ -1,4 +1,8 @@
 """
+Explain Exception handling? What is an Error in Python?
+"""
+
+"""
 Exception handling is a mechanism in Python that allows a programmer to manage errors or exceptional conditions that occur during the execution of a program. Instead of the program terminating unexpectedly, exception handling provides a way to catch and handle errors gracefully, allowing the program to continue running or exit cleanly.
 
 Key Concepts in Exception Handling:

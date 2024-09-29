@@ -12,18 +12,18 @@ Exception Raised and Not Handled: If an exception is raised in the try block and
 try:
     a = int(input("Enter a number: "))
     res = 10 / a
-    print("result : ",res)
+    print("result : ", res)
 except ValueError:
     print("Invalid input! Please enter a valid number.")
 except ZeroDivisionError:
     print("Error: Cannot divide by zero.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
-finally : 
+finally:
     print("Execution Completed..")
 
 
-'''
+"""
 Enter a number: 5
 result :  2.0
 Execution Completed..
@@ -33,4 +33,4 @@ Enter a number: 0
 Error: Cannot divide by zero.
 Execution Completed..
 
-'''
+"""

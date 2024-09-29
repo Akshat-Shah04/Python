@@ -1,3 +1,7 @@
+"""
+Write a python program to find the longest words
+"""
+
 filename = (
     "C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo.txt"
 )
@@ -13,9 +17,10 @@ def longest_word(filename):
                     longest = i
     return longest
 
+
 print("Longest Word in the file is : ", longest_word(filename))
 
 
-'''
+"""
 Longest Word in the file is :  Programming
-'''
+"""

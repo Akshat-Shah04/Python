@@ -1,8 +1,15 @@
-file = open('C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo.txt','r')
+"""
+Write a Python program to read an entire text file.
+"""
+
+file = open(
+    "C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo.txt",
+    "r",
+)
 for i in file:
     print(i)
 file.close()
-'''
+"""
 My name is Akshat Shah
 
 I am currently 20 years old.
@@ -17,5 +24,4 @@ I love Python Programming
 
 I am currently solving Module 4
 
-'''
-
+"""

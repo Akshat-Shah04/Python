@@ -1,3 +1,7 @@
+"""
+Write a Python program to read last n lines of a file
+"""
+
 filename = (
     "C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo.txt"
 )

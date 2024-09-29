@@ -1,3 +1,7 @@
+"""
+Write a Python program to count the frequency of words in a file.
+"""
+
 filename = (
     "C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo.txt"
 )

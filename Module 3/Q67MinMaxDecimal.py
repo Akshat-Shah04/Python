@@ -1,4 +1,5 @@
-# 
+# Write a Python program to find the maximum and minimum numbers from the specified decimal numbers.
+
 
 def sort(li):
     return sorted(li)

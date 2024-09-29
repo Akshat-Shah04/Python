@@ -1,3 +1,7 @@
+"""
+Can one block of except statements handle multiple exception?
+"""
+
 try:
     a = int(input("Enter a number: "))
     result = 10 / a

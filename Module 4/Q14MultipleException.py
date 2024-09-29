@@ -1,4 +1,9 @@
 """
+How many except statements can a try-except block have? Name Some built-in exception classes:
+When will the else part of try-except-else be executed?
+"""
+
+"""
 A try-except block in Python can have multiple except statements to handle different types of exceptions. There is no strict limit to the number of except blocks you can include, allowing you to catch and handle various specific exceptions separately.
 """
 

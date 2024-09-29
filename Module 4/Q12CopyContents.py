@@ -1,3 +1,7 @@
+"""
+Write a Python program to copy the contents of a file to another file.
+"""
+
 file1 = (
     "C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo1.txt"
 )

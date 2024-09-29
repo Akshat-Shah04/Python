@@ -1,3 +1,7 @@
+"""
+Write a Python program to write a list to a file.
+"""
+
 l = ["My name is Akshat Shah...\n", "100101\n", "hii world\n", "Akshat Shah\n"]
 filename = (
     "C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo.txt"
@@ -8,6 +12,7 @@ def write_file(filename, str):
     with open(filename, "w") as file:
         file.writelines(str)
         file.close()
+
 
 def read_file(filename):
     with open(filename, "r") as file:

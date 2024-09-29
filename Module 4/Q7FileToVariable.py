@@ -1,3 +1,7 @@
+"""
+Write a Python program to read a file line by line store it into a variable
+"""
+
 filename = (
     "C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo.txt"
 )

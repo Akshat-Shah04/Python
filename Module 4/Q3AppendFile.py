@@ -1,3 +1,7 @@
+"""
+Write a Python program to append text to a file and display the text
+"""
+
 filename = (
     "C:\\Users\\pathi\\Desktop\\Program\\Tops\\Assignments\\Python\\Module 4\\demo.txt"
 )

@@ -1,4 +1,8 @@
-class EvenNumberException(Exception):
+'''
+Write python program that user to enter only odd numbers, else will raise an exception?
+'''
+
+class EvenNumException(Exception):
     pass
 
 
@@ -6,9 +10,9 @@ def get_odd():
     try:
         num = int(input("Enter a number : "))
         if num % 2 == 0:
-            raise EvenNumberException(f"{num} is not an Odd Number...")
+            raise EvenNumException(f"{num} is not an Odd Number...")
         print(f"{num} is an odd number")
-    except EvenNumberException as e:
+    except EvenNumException as e:
         print(e)
     except ValueError:
         print("ValueError.. Enter a number...")

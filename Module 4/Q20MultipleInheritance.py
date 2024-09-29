@@ -1,3 +1,8 @@
+"""
+What are oops concepts? Is multiple inheritance supported in python?
+"""
+
+
 class A:
     def fun1(self):
         print("Parent - Class A")
