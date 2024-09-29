@@ -3,13 +3,13 @@
 n1 = int(input("Enter number 1 : "))
 n2 = int(input("Enter number 2 : "))
 
-if (n1 == n2 or n1+n2 == 5 or n1-n2 == 5):
+if n1 == n2 or n1 + n2 == 5 or n1 - n2 == 5:
     flag = True
-else :
+else:
     flag = False
-print("Result :",flag)
-    
-'''
+print("Result :", flag)
+
+"""
 O/P:
 
 Enter number 1 : 12
@@ -26,4 +26,4 @@ Enter number 1 : 34
 Enter number 2 : 4
 Result : False
 
-'''
+"""

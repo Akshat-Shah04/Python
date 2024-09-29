@@ -6,13 +6,14 @@ def fibonacci(n):
         fib.append(nT)
     return fib[:n]
 
-n = int(input("Enter the range : ")) 
+
+n = int(input("Enter the range : "))
 print(fibonacci(n))
 
-'''
+"""
 
 O/P:
 Enter the range : 5
 [0, 1, 1, 2, 3]
 
-'''
+"""

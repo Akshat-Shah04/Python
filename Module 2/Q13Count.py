@@ -5,11 +5,11 @@ n = input("Enter the character you want to check count of :")
 count = str1.count(n)
 print(f"Count of {n} in String '{str}' is {count}")
 
-'''
+"""
 output :
 
 Enter a string : akshatshah
 Enter the character you want to check count of :a
 Count of a in String 'akshatshah' is 3
 
-'''
+"""

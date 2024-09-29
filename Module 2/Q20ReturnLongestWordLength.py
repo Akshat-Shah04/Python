@@ -2,15 +2,17 @@
 
 words = []
 str = input("Enter a string : ")
-for i in str.split(' '):
+for i in str.split(" "):
     words.append(i)
 print("List of the words entered :", words)
+
 
 def longest_word(l):
     max_length = max(len(word) for word in words)
     return max_length
 
-print("Length of longest word is : ",longest_word(words))
+
+print("Length of longest word is : ", longest_word(words))
 
 
 """

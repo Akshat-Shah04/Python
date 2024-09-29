@@ -4,11 +4,11 @@ Write a Python program to find the first appearance of the substring 'not' and '
 
 str = input("Enter a string: ")
 
-first_not = str.find('not')
-first_poor = str.find('poor')
+f_not = str.find("not")
+f_poor = str.find("poor")
 
-if first_not > first_poor:
-    result = str[:first_poor] + 'good' + str[first_not + 3:]
+if f_not > f_poor:
+    result = str[:f_poor] + "good" + str[f_not + 3 :]
 else:
     result = str
 
