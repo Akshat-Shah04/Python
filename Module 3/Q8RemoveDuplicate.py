@@ -1,3 +1,7 @@
+'''
+Write a Python program to remove duplicates from a list.
+'''
+
 a = []
 n = int(input("Enter how many numbers you want to input in list : "))
 # Method 1

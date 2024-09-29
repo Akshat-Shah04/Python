@@ -1,3 +1,4 @@
+# Write a Python function to get the largest number, smallest num and sum of all from a list.
 def maximum(a):
     max = a[0]
     for i in a:

@@ -1,3 +1,8 @@
+"""
+Write a Python function that takes two lists and returns true if they have at
+least one common member.
+"""
+
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 b = [0, 2, 4, 6, 8, 10]
 c = [11, 3, 23, 45, 67]

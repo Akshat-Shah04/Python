@@ -1,3 +1,4 @@
+# Write a Python program to check a list is empty or not.
 def isEmpty(a):
     if len(a) == 0:
         return True
