@@ -1,3 +1,6 @@
+# Write a Python program to returns sum of all divisors of a number
+
+
 def sum_divisors(n):
     sum = 0
     for i in range(1, n + 1):

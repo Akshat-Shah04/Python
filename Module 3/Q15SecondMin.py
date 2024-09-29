@@ -1,3 +1,4 @@
+# Write a Python program to find the second smallest number in a list.
 def second_min(li):
     return sorted(li)
 

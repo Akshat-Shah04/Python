@@ -1,3 +1,5 @@
+# What is tuple? Difference between list and tuple
+
 """
 Tuple is an immutable,indexed and ordered collection of items in python.
 Tuples are similar to lists but differ in that tuples cannot be changed (i.e., they are immutable). 

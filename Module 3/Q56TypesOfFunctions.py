@@ -1,3 +1,5 @@
+# How Many Basic Types Of Functions Are Available In Python
+
 """
 In Python, functions can be categorized in two main types:
 

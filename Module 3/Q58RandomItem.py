@@ -1,3 +1,5 @@
+# How can you pick a random item from a range?
+
 import random
 for i in range(1,6):
     r = random.randrange(1,101)

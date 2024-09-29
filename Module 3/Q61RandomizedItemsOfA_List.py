@@ -1,3 +1,4 @@
+# How will you set the starting value in generating random numbers?
 import random
 
 a = [1, 2, 3, 4, 5]

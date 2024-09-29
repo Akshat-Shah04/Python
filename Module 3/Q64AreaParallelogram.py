@@ -1,3 +1,4 @@
+# Write a Python program to calculate the area of a parallelogram
 h = int(input("Enter the height : "))
 b = int(input("Enter the width : "))
 

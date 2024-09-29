@@ -1,3 +1,6 @@
+# Write a Python function that checks whether a passed string is palindrome or not
+
+
 def palindromeString(str):
     str = str.lower()
     rev = ""
@@ -6,7 +9,8 @@ def palindromeString(str):
         return True
     else:
         return False
-    
+
+
 print(palindromeString("Hello"))
 print(palindromeString("Heh"))
 
