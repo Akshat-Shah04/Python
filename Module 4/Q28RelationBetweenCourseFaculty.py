@@ -31,7 +31,6 @@ course2 = Course("Database Management System 202")
 faculty1.assign_course(course1)
 faculty1.assign_course(course2)
 
-# Display faculty and their courses
 print(f"{faculty1.name} teaches:")
 for i in faculty1.courses:
     print(i.course_name)
