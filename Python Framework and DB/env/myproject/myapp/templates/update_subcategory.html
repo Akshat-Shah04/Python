@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Subproduct</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="text-center text-primary mb-4">Update Subproduct</h1>
+
+      <form method="POST" action="" enctype="multipart/form-data" class="card p-4">
+        {% csrf_token %}
+        <div class="mb-3">
+          <label for="product" class="form-label">Product Name</label>
+          <input type="text" class="form-control" id="product" value="{{ subcategory.product.pname }}" readonly />
+        </div>
+
+        <div class="mb-3">
+          <label for="price" class="form-label">Price</label>
+          <input type="number" class="form-control" id="price" name="price" value="{{ subcategory.price }}" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="model" class="form-label">Model</label>
+          <input type="text" class="form-control" id="model" name="model" value="{{ subcategory.model }}" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="ram" class="form-label">RAM</label>
+          <input type="text" class="form-control" id="ram" name="ram" value="{{ subcategory.ram }}" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="image" class="form-label">Product Image</label>
+          <input type="file" class="form-control" id="image" name="image" />
+          {% if subcategory.image %}
+            <div class="mt-2">
+              <img src="{{ subcategory.image.url }}" alt="Current Image" class="img-thumbnail" style="width: 100px; height: 100px; object-fit: cover" />
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-success">Update</button>
+          <a href="{% url 'admin_dashboard' %}" class="btn btn-secondary">Cancel</a>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
