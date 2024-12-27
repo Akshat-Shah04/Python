@@ -9,6 +9,6 @@ Basic Structure of Django URLs
 -> urls.py in Project Directory: Main URL configurations that include the app-level URLs.
 -> urls.py in Application Directory: URL configurations specific to an app within the project.
 
-
-
+Urls created in both env and env2...
 """
+
